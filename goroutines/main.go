@@ -2,7 +2,7 @@ package main
 
 import (
 	"runtime"
-	"time"
+	"time" s
 )
 
 func main() {
