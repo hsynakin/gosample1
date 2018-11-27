@@ -25,4 +25,14 @@ func main() {
 	for i := 0; i < 3; i++ {
 		println(i)
 	}
+	k := 0
+	for {
+		k++
+		println(k)
+
+		if k > 5 {
+			break
+		}
+	}
+
 }
