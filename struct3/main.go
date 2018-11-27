@@ -13,4 +13,5 @@ func main() {
 
 func (mp *messagePrinter) printMessage() {
 	println(mp.message)
+	println(mp.printMessage)
 }
